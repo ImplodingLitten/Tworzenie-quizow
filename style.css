@@ -1,0 +1,53 @@
+#dodaj{
+    height: 48%;
+    width: 10%;
+    position:fixed;
+    margin: 0;
+  position: absolute;
+  top: 25%;
+  left:88%;
+  transform: translateY(-50%);
+  background-color: darkcyan;
+  color: white;
+  font-size: 2.5vw;
+  font-weight: normal;
+  transition: background-color 0.2s;
+}
+#dodaj:hover{
+background-color:#31c4c4;
+transition: background-color 0.2s;
+
+}
+#usun{
+    height: 48%;
+    width: 10%;
+    position:fixed;
+    margin: 0;
+  position: absolute;
+  top: 75%;
+  left:88%;
+  transform: translateY(-50%);
+  background-color: navy;
+  color: white;
+  font-size: 2.5vw;
+  transition: background-color 0.2s;
+}
+
+#usun:hover{
+background-color:#0f70d1;
+transition: background-color 0.2s;
+}
+
+form{
+    width:75%
+}
+
+textarea{
+   width:25%;
+   height:7.5vw;
+}
+
+#alignment{
+    display: flex;
+  align-items: center;
+}
