@@ -1,11 +1,11 @@
 #dodaj{
     height: 48%;
-    width: 10%;
+    width: 14%;
     position:fixed;
     margin: 0;
   position: absolute;
   top: 25%;
-  left:88%;
+  left:85%;
   transform: translateY(-50%);
   background-color: darkcyan;
   color: white;
@@ -20,12 +20,12 @@ transition: background-color 0.2s;
 }
 #usun{
     height: 48%;
-    width: 10%;
+    width: 14%;
     position:fixed;
     margin: 0;
   position: absolute;
   top: 75%;
-  left:88%;
+  left:85%;
   transform: translateY(-50%);
   background-color: navy;
   color: white;
@@ -44,7 +44,7 @@ form{
 
 textarea{
    width:25%;
-   height:7.5vw;
+   height:10vw;
 }
 
 #alignment{
