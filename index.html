@@ -19,9 +19,9 @@
 
     <div id="alignment">
     <label for="fname"> Pytanie: </label>
-    <textarea id="jeden" name="jeden" rows="4" cols="1"></textarea>
+    <textarea id="odpjeden0" name="jeden" rows="4" cols="1" class="delete-when-added1"></textarea>
     <label for="lname"> Odpowiedź: </label>
-    <textarea id="dwa" name="dwa" rows="4" cols="1"></textarea>
+    <textarea id="odpdwa0" name="dwa" rows="4" cols="1" class="delete-when-added2"></textarea>
     </div>
     <br>
     <br>
@@ -32,8 +32,9 @@
 </div>
 </form>
 
-<button type="button" id="dodaj" name="dodaj" onclick="duplicate()">dodaj kolejne pytanie</button>
-<button type="button" id="usun" name="usun">usuń ostatnie pytanie</button>
+<button type="button" id="dodaj" name="dodaj" onclick="duplicate()">Dodaj kolejne pytanie</button>
+<button type="button" id="usun" name="usun" onclick="dispose()">Usuń ostatnie pytanie</button>
+<button type="button" id="export" name="export" onclick="download()">Wyeksportuj pytania do pliku</button>
 </body>
 </html>
 <script type="text/javascript" src="dodaj.js">
